@@ -1,0 +1,18 @@
+{
+  "name": "chef-gigi",
+  "version": "1.0.0",
+  "description": "Chef Gigi - Home cooked food delivery website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build step required for static HTML'",
+    "lint": "echo 'No linter configured'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": ["food", "delivery", "chef"],
+  "author": "Nour Aldin",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  }
+}
