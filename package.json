@@ -1,0 +1,18 @@
+{
+  "name": "chef-gigi",
+  "version": "1.0.0",
+  "description": "Chef Gigi's restaurant menu website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "echo 'Static HTML - no build required'",
+    "lint": "echo 'No linter configured'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": ["restaurant", "menu", "chef"],
+  "author": "Chef Gigi",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  }
+}
